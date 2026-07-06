@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tuff.Backend", "Tuff.Backend\Tuff.Backend.vcxproj", "{D8457748-3401-47A1-9CD2-3B93BA1E29D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tuff.OpenGL", "Tuff.OpenGL\Tuff.OpenGL.vcxproj", "{8E136F29-B391-448B-A5C1-508D3616CF30}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tuff.ImGui", "Tuff.ImGui\Tuff.ImGui.vcxproj", "{8D781658-818E-4EEA-B499-9988495FA7AC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tuff.Sandbox", "Tuff.Sandbox\Tuff.Sandbox.vcxproj", "{0C786526-7371-4F2C-897E-7667840B4014}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tuff.Core", "Tuff.Core\Tuff.Core.vcxproj", "{491EDC72-15AF-44D9-A9D7-CBDB10B328C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8457748-3401-47A1-9CD2-3B93BA1E29D0}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{D8457748-3401-47A1-9CD2-3B93BA1E29D0}.Debug|Any CPU.Build.0 = Debug|x64
+		{8E136F29-B391-448B-A5C1-508D3616CF30}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{8E136F29-B391-448B-A5C1-508D3616CF30}.Debug|Any CPU.Build.0 = Debug|x64
+		{8D781658-818E-4EEA-B499-9988495FA7AC}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{8D781658-818E-4EEA-B499-9988495FA7AC}.Debug|Any CPU.Build.0 = Debug|x64
+		{0C786526-7371-4F2C-897E-7667840B4014}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{0C786526-7371-4F2C-897E-7667840B4014}.Debug|Any CPU.Build.0 = Debug|x64
+		{491EDC72-15AF-44D9-A9D7-CBDB10B328C5}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{491EDC72-15AF-44D9-A9D7-CBDB10B328C5}.Debug|Any CPU.Build.0 = Debug|x64
+	EndGlobalSection
+EndGlobal
