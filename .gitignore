@@ -298,6 +298,7 @@ flycheck_*.el
 .projectile
 *.vcxproj
 *.vcxproj.filters
+*.idea
 imgui.ini
 
 # directory configuration
