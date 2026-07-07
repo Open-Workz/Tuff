@@ -24,7 +24,7 @@ namespace Tuff::Core::Editor::Grid {
         return OpenGL::ResourceManager::AddShader("grid", AssetPath::Shader("Editor/grid.vert"), AssetPath::Shader("Editor/grid.frag"));
     }
 
-    void Update() {
+    void Render() {
         OpenGL::Commands::BindShader("grid");
         OpenGL::Commands::SetUniformMat4("uView", Camera::GetViewMatrix());
         OpenGL::Commands::SetUniformMat4("uProjection", Camera::GetProjectionMatrix());

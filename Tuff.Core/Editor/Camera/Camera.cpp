@@ -16,7 +16,7 @@
 
 namespace Tuff::Core::Editor::Camera {
     namespace {
-        glm::vec3 gPosition{0.f, 0.f, 600.f};
+        glm::vec3 gPosition{0.f, 1.f, 10.f};
         glm::vec3 gForward{ 0.0, 0.0, 0.0};
         glm::vec3 gRight{ 1.0, 0.0, 0.0 };
         glm::vec3 gUp{ 0.0, 1.0, 0.0};
@@ -34,7 +34,7 @@ namespace Tuff::Core::Editor::Camera {
         bool gMouseCaptured = false;
         
         // TODO: REMOVE ME LATER
-        float gMoveSpeed = 50.f;
+        float gMoveSpeed = 10.f;
         float gAcceleration = 5.f;
         float gFriction = 5.f;
         float gMouseSensitivity = 0.0005f;

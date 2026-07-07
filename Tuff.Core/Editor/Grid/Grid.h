@@ -2,6 +2,6 @@
 
 namespace Tuff::Core::Editor::Grid {
     bool Init();
-    void Update();
+    void Render();
     void ImGui();
 }
